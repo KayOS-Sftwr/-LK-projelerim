@@ -39,7 +39,7 @@ int main() {
 
 
         char tus = (char)waitKey(30);
-        if(tus == 27) { // 27 = ESC tuşu
+        if(tus == 27) { 
             break;
         }
     }
@@ -47,3 +47,4 @@ int main() {
 
     return 0;
 }
+
